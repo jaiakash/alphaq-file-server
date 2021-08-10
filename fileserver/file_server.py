@@ -1,4 +1,5 @@
 import socket
+from cryptography.fernet import Fernet
 import os
 # device's IP address
 SERVER_HOST = "localhost"

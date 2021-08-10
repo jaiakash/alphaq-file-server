@@ -8,4 +8,10 @@ Dipesh needs a file server to share files between members. Your task is to creat
 <li>Multiple clients must be able to download files at same time.
 <li>Dockerize the server.
   
+## Superuser Mode
+<li>Users must be able to upload files to the server.
+<li>Users must be able to search for files in the server using regex.
+<li>Enable authentication for uploading/downloading/removing files.
+<li>Encrypt the files being transfered using (AES-256).
+  
 ### Submitted by Akash Jaiswal

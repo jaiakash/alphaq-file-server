@@ -26,7 +26,7 @@ Docker
 ## Normal Mode
 <li>Clients must be able to receive files of respective domains(SysAd, WebDev, AppDev) from the file server. <b>Done</b>
 <li>Multiple clients must be able to download files at same time. <b>Done</b>  (For small files)
-<li>Dockerize the server.
+<li>Dockerize the server. <b>Done</b>
   
 ## Superuser Mode
 <li>Users must be able to upload files to the server.

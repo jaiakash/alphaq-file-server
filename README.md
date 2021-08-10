@@ -3,7 +3,7 @@
 AlphaQ File Server
 Dipesh needs a file server to share files between members. Your task is to create a file server and client to send and receive files using sockets.
 
-## Usage
+## Usage - Script
 
 Server file: This will get the server up and running (on port 8888)
 
@@ -16,6 +16,12 @@ Client file:
 Decrypt
 
 *     python3 decrypt_file.py
+
+## Usage - Docker
+
+Docker
+
+*     docker build -t alphaq-ftp .
 
 ## Normal Mode
 <li>Clients must be able to receive files of respective domains(SysAd, WebDev, AppDev) from the file server. <b>Done</b>

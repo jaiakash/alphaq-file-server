@@ -26,13 +26,13 @@ def load_key():
 # the name of file we want to send, make sure it exists
 t=int(input("Enter 1 for app, 2 for sysad and 3 for web file : "))
 if(t==1):
-    fname="app.txt"
+    fname="fapp.txt"
 elif(t==3):
-    fname="web.txt"
+    fname="fweb.txt"
 elif(t==2):
-    fname="sysad.txt"
+    fname="fsysad.txt"
 else:
-    fname="error.log"
+    fname="ferror.log"
 
 
 filename = "./files/"+fname;

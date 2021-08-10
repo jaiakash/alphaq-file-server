@@ -6,11 +6,23 @@ SEPARATOR = "<SEPARATOR>"
 BUFFER_SIZE = 4096 # send 4096 bytes each time step
 
 # the ip address or hostname of the server, the receiver
+#TODO using localhost for testing purpose
 host = "localhost"
-# the port, let's use 5001
-port = 5001
+port = 8888
+
 # the name of file we want to send, make sure it exists
-filename = "./files/text.txt"
+t=int(input("Enter 1 for app, 2 for sysad and 3 for web file : "))
+if(t==1):
+    fname="app.txt"
+elif(t==3):
+    fname="web.txt"
+elif(t==2):
+    fname="sysad.txt"
+else:
+    fname="error.log"
+
+
+filename = "./files/"+fname;
 # get the file size
 filesize = os.path.getsize(filename)
 

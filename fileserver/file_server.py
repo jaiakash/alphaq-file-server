@@ -3,7 +3,7 @@ import tqdm
 import os
 # device's IP address
 SERVER_HOST = "localhost"
-SERVER_PORT = 5001
+SERVER_PORT = 8888
 # receive 4096 bytes each time
 BUFFER_SIZE = 4096
 SEPARATOR = "<SEPARATOR>"
